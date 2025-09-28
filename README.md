@@ -6,7 +6,7 @@ This repository contains tiny Python exercises that demonstrate how TCP and UDP 
 
 ## 📦 Contents
 
-```tcp_server.py``` → Simple TCP server
-```tcp_client.py``` → Simple TCP client
-```udp_server.py``` → Simple UDP server
-```udp_client.py``` → Simple UDP client
+- ```tcp_server.py``` → Simple TCP server
+- ```tcp_client.py``` → Simple TCP client
+- ```udp_server.py``` → Simple UDP server
+- ```udp_client.py``` → Simple UDP client
