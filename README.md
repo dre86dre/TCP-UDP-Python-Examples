@@ -10,3 +10,31 @@ This repository contains tiny Python exercises that demonstrate how TCP and UDP 
 - ```tcp_client.py``` → Simple TCP client
 - ```udp_server.py``` → Simple UDP server
 - ```udp_client.py``` → Simple UDP client
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the Repository
+git clone [https://github.com/dre86dre/TCP-UDP-Python-Examples](https://github.com/dre86dre/TCP-UDP-Python-Examples)
+cd tcp-udp-examples
+
+2. Run the TCP Example
+
+In one terminal, start the server:
+
+python tcp_server.py
+
+
+In another terminal, run the client:
+
+python tcp_client.py
+
+
+You should see:
+
+Server side → Received: Hello TCP Server!
+Client side → Server says: Hello from TCP server!
+
+
+✅ Messages are delivered reliably and in order.
