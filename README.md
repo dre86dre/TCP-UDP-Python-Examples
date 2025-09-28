@@ -77,6 +77,7 @@ Client side → ```Server says: Hello from UDP server!```
 ## 🛠 Requirements
 - Python 3.x
 - Works on Linux, macOS, or Windows
+
 No external dependencies are needed.
 
 ---
