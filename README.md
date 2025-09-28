@@ -40,8 +40,6 @@ Client side → ```Server says: Hello from TCP server!```
 
 ✅ Messages are delivered reliably and in order.
 
-***
-
 ### 3. Run the UDP Example
 
 In one terminal, start the server:
@@ -56,8 +54,33 @@ In another terminal, run the client:
 
 You should see:
 
-Server side → Received: Hello UDP Server! from ('127.0.0.1', <random_port>)
-Client side → Server says: Hello from UDP server!
+Server side → ```Received: Hello UDP Server! from ('127.0.0.1', <random_port>)```
+Client side → ```Server says: Hello from UDP server!```
 
 
 ⚠️ UDP is faster but does not guarantee delivery or ordering. If packets are dropped, they won’t be retried.
+
+---
+
+## 📖 What You’ll Learn
+
+### TCP (Transmission Control Protocol)
+- Reliable, ordered, error-checked communication.
+- Used for web browsing, emails, file downloads.
+
+### UDP (User Datagram Protocol)
+- Faster, lightweight, no guarantees.
+- Used for video calls, online gaming, streaming.
+
+---
+
+## 🛠 Requirements
+- Python 3.x
+- Works on Linux, macOS, or Windows
+No external dependencies are needed.
+
+---
+
+## 📝 License
+This project is licensed under the MIT License.
+
