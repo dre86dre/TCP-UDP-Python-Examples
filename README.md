@@ -33,8 +33,9 @@ In another terminal, run the client:
 
 You should see:
 
-Server side → Received: Hello TCP Server!
-Client side → Server says: Hello from TCP server!
+Server side → ```Received: Hello TCP Server!```
+
+Client side → ```Server says: Hello from TCP server!```
 
 
 ✅ Messages are delivered reliably and in order.
