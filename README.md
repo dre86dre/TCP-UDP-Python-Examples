@@ -39,3 +39,25 @@ Client side → ```Server says: Hello from TCP server!```
 
 
 ✅ Messages are delivered reliably and in order.
+
+--
+
+### 3. Run the UDP Example
+
+In one terminal, start the server:
+
+```cd udp_example```
+
+```python udp_server.py```
+
+In another terminal, run the client:
+
+```python udp_client.py```
+
+You should see:
+
+Server side → Received: Hello UDP Server! from ('127.0.0.1', <random_port>)
+Client side → Server says: Hello from UDP server!
+
+
+⚠️ UDP is faster but does not guarantee delivery or ordering. If packets are dropped, they won’t be retried.
