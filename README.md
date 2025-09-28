@@ -40,7 +40,7 @@ Client side → ```Server says: Hello from TCP server!```
 
 ✅ Messages are delivered reliably and in order.
 
-<hr/>
+___
 
 ### 3. Run the UDP Example
 
