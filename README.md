@@ -17,9 +17,10 @@ This repository contains tiny Python exercises that demonstrate how TCP and UDP 
 
 ### 1. Clone the Repository
 ```git clone https://github.com/dre86dre/TCP-UDP-Python-Examples.git```
+
 ```cd tcp-udp-examples```
 
-3. Run the TCP Example
+### 2. Run the TCP Example
 
 In one terminal, start the server:
 
